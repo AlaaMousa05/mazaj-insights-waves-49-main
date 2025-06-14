@@ -200,7 +200,7 @@ const Dashboard = () => {
         <div className="lg:col-span-1">
           <UserClusters />
         </div>
-        {/* Trending Posts & Word Cloud */}
+
         <div className="grid lg:grid-cols-2 gap-8 mt-8"></div>
       </div>
     </div>

@@ -18,7 +18,6 @@ type Cluster = {
 const UserClusters = () => {
   const [selectedCluster, setSelectedCluster] = useState<Cluster | null>(null);
 
-  // استخدم الداتا المستوردة
   const clusters = analysisData.clusters;
 
   return (
@@ -37,7 +36,6 @@ const UserClusters = () => {
               <CardHeader className="pb-3 ">
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-lg font-semibold flex items-center gap-2 text-white">
-                    {/* يمكنك وضع إيموجي أو رمز حسب نوع المجموعة إذا أردت */}
                     <span className="text-2xl">👥</span>
                     {cluster.name}
                   </CardTitle>
